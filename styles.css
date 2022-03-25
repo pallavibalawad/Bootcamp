@@ -1,0 +1,31 @@
+body{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+    
+}
+header{
+    position:sticky;
+    
+}
+.navigation 
+{
+    background-color:black;
+    color: white;
+    margin-top: 0px;
+    list-style-type: none;
+    padding-left: 0px;
+    display: flex;
+   
+    
+    
+}
+
+.navigation li
+{
+    list-style:none;
+    margin: 10px;
+   
+    
+}
