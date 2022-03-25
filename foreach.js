@@ -1,0 +1,10 @@
+// using forEach
+students.forEach(myFunction);
+
+function myFunction(item, index, arr) {
+
+    // adding strings to the array elements
+    arr[index] = 'Hello ' + item;
+}
+
+console.log(students);
