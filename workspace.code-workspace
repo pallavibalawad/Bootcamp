@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "..\\bootcamp1"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"git.decorations.enabled": false
+	}
+}

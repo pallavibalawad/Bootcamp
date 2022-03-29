@@ -1,0 +1,70 @@
+JavaScript has 3 types of scope:
+
+Block scope
+Function scope
+Global scope
+
+let pageInfo = {
+    width: 500,
+    height: 800,
+    title: 'My page'
+}
+
+Multiply the values by 2. Whether value is number. 
+If yes, then multiply by 2 if not keep it as is.
+Hint: Check the type by typeof
+
+Create calculator object.
+In the object you should have three functions read, add, multiply
+Read - Enter two numbers
+Shantanu B2:18 PM
+calculator.read()
+calculator.sum()
+
+let ladder = {
+  step: 0,
+  up() {
+    this.step++;
+  },
+  down() {
+    this.step--;
+  },
+  showStep: function() { // shows the current step
+    alert( this.step );
+  }
+};
+Shantanu B2:36 PM
+ladder.up().up().down().showStep().up().showStep()
+
+///////4
+let i = 0;
+
+setTimeout(() => alert(i), 1000); // ?100000000  999999999
+
+// assume that the time to execute this function is >100ms
+for (let j = 0; j < 100; j++) {
+  i++
+}
+
+/////////////26/3/how to make diagonal of the table red////
+after </table>
+<script>
+    let table = document.body.firstElementChild;
+
+    for (let i = 0; i < table.rows.length; i++) {
+      let row = table.rows[i];
+      row.cells[i].style.backgroundColor = 'red';
+    }
+  </script>
+
+///////// java script////////
+  https://developer.mozilla.org/en-US/
+
+
+  ////////29/////////
+  query selectors
+  https://javascript.info/searching-elements-dom
+  
+
+  12pm promises concept read
+  https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
